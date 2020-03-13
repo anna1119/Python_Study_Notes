@@ -95,3 +95,17 @@ print(sorted(numbers_2, reverse=True))
 #         lowercase. When there are uppercase letters and 
 #         lowercase letters, we need to do more complicated
 #         things
+
+# 3. Use reverse() function to reverse the order of an array
+#    The last element becomes the first, the second last
+#    becomes the second, so on and so forth
+#    effects: change the order of the array permanently
+letter_array_2 = ['t', 'o', 'p']
+print(letter_array_2)
+letter_array_2.reverse()
+print(letter_array_2)
+
+# 4. Use len() function to get the length of an array
+# The following function should produce output 3
+len(letter_array_2)
+
